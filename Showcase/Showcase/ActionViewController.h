@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  ActionViewController.h
 //  Showcase
 //
 //  Created by X on 01/10/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface ActionViewController : UIViewController
 
 @end
-

@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  SliderViewController.m
 //  Showcase
 //
 //  Created by X on 01/10/15.
 //  Copyright (c) 2015 Alex Izotov. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "SliderViewController.h"
 
-@interface FirstViewController ()
+@interface SliderViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation SliderViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

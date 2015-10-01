@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		17082DAE1BBDA7A90092C7FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DAD1BBDA7A90092C7FC /* main.m */; };
 		17082DB11BBDA7A90092C7FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DB01BBDA7A90092C7FC /* AppDelegate.m */; };
-		17082DB41BBDA7A90092C7FC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DB31BBDA7A90092C7FC /* FirstViewController.m */; };
-		17082DB71BBDA7A90092C7FC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DB61BBDA7A90092C7FC /* SecondViewController.m */; };
+		17082DB41BBDA7A90092C7FC /* TrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DB31BBDA7A90092C7FC /* TrackViewController.m */; };
+		17082DB71BBDA7A90092C7FC /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DB61BBDA7A90092C7FC /* SliderViewController.m */; };
 		17082DBA1BBDA7AA0092C7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17082DB81BBDA7AA0092C7FC /* Main.storyboard */; };
 		17082DBC1BBDA7AA0092C7FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17082DBB1BBDA7AA0092C7FC /* Images.xcassets */; };
 		17082DBF1BBDA7AA0092C7FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17082DBD1BBDA7AA0092C7FC /* LaunchScreen.xib */; };
 		17082DCB1BBDA7AA0092C7FC /* ShowcaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DCA1BBDA7AA0092C7FC /* ShowcaseTests.m */; };
+		17082DD61BBDA9DA0092C7FC /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17082DD51BBDA9DA0092C7FC /* ActionViewController.m */; };
+		17082DD81BBDAF290092C7FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17082DD71BBDAF290092C7FC /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,16 +35,19 @@
 		17082DAD1BBDA7A90092C7FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17082DAF1BBDA7A90092C7FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17082DB01BBDA7A90092C7FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		17082DB21BBDA7A90092C7FC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		17082DB31BBDA7A90092C7FC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		17082DB51BBDA7A90092C7FC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		17082DB61BBDA7A90092C7FC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		17082DB21BBDA7A90092C7FC /* TrackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackViewController.h; sourceTree = "<group>"; };
+		17082DB31BBDA7A90092C7FC /* TrackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackViewController.m; sourceTree = "<group>"; };
+		17082DB51BBDA7A90092C7FC /* SliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		17082DB61BBDA7A90092C7FC /* SliderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 		17082DB91BBDA7AA0092C7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17082DBB1BBDA7AA0092C7FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17082DBE1BBDA7AA0092C7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		17082DC41BBDA7AA0092C7FC /* ShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17082DC91BBDA7AA0092C7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17082DCA1BBDA7AA0092C7FC /* ShowcaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowcaseTests.m; sourceTree = "<group>"; };
+		17082DD41BBDA9DA0092C7FC /* ActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionViewController.h; sourceTree = "<group>"; };
+		17082DD51BBDA9DA0092C7FC /* ActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
+		17082DD71BBDAF290092C7FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17082DD81BBDAF290092C7FC /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +72,7 @@
 		17082D9F1BBDA7A90092C7FC = {
 			isa = PBXGroup;
 			children = (
+				17082DD71BBDAF290092C7FC /* CoreLocation.framework */,
 				17082DAA1BBDA7A90092C7FC /* Showcase */,
 				17082DC71BBDA7AA0092C7FC /* ShowcaseTests */,
 				17082DA91BBDA7A90092C7FC /* Products */,
@@ -86,10 +93,12 @@
 			children = (
 				17082DAF1BBDA7A90092C7FC /* AppDelegate.h */,
 				17082DB01BBDA7A90092C7FC /* AppDelegate.m */,
-				17082DB21BBDA7A90092C7FC /* FirstViewController.h */,
-				17082DB31BBDA7A90092C7FC /* FirstViewController.m */,
-				17082DB51BBDA7A90092C7FC /* SecondViewController.h */,
-				17082DB61BBDA7A90092C7FC /* SecondViewController.m */,
+				17082DB21BBDA7A90092C7FC /* TrackViewController.h */,
+				17082DB31BBDA7A90092C7FC /* TrackViewController.m */,
+				17082DB51BBDA7A90092C7FC /* SliderViewController.h */,
+				17082DB61BBDA7A90092C7FC /* SliderViewController.m */,
+				17082DD41BBDA9DA0092C7FC /* ActionViewController.h */,
+				17082DD51BBDA9DA0092C7FC /* ActionViewController.m */,
 				17082DB81BBDA7AA0092C7FC /* Main.storyboard */,
 				17082DBB1BBDA7AA0092C7FC /* Images.xcassets */,
 				17082DBD1BBDA7AA0092C7FC /* LaunchScreen.xib */,
@@ -224,9 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17082DB71BBDA7A90092C7FC /* SecondViewController.m in Sources */,
+				17082DB71BBDA7A90092C7FC /* SliderViewController.m in Sources */,
+				17082DD61BBDA9DA0092C7FC /* ActionViewController.m in Sources */,
 				17082DB11BBDA7A90092C7FC /* AppDelegate.m in Sources */,
-				17082DB41BBDA7A90092C7FC /* FirstViewController.m in Sources */,
+				17082DB41BBDA7A90092C7FC /* TrackViewController.m in Sources */,
 				17082DAE1BBDA7A90092C7FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

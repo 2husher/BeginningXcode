@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SliderViewController.h
 //  Showcase
 //
 //  Created by X on 01/10/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface SliderViewController : UIViewController
 
 
 @end
